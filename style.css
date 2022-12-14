@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0,0,0.1); */
+    height: 80vh;
+}
+.container{
+    margin: auto;
+    /* width: 400px; */
+
+    position: relative;;
+    box-shadow: 5px 5px 20px 5px rgba(153,153,153,0.8);
+
+}
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:300px ;
+    height:60px ;
+    padding-right: 20px;
+    /* background-color: antiquewhite; */
+    border-width:0.5px 0.5px 0.5px 0.5px;
+    background-color:rgba(0,0,0,0.05);
+    border-color:rgba(0, 0,0,0.23);
+    border-style: solid;
+    
+}
+.buttons{
+    /* background-color: beige; */
+    background-color: rgba(0,0,0,0.1);
+    width: 300px;
+    height: 350px;
+    display: grid;
+    /* gap: 1px; */
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    /* align-items: center; */
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    gap: 2px;
+    background-color: rgba(0,0,0,0.1);
+}
+.buttons div:hover{
+background-color: rgba(0, 0,0,0.8);
+color: white;
+}
+.buttons div:active{
+    background-color: rgba(0, 0,0,0.4);
+}
+.buttons div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* border: 0.5px solid black; */
+}
+.equal{
+    background-color: #5555ff;
+}
